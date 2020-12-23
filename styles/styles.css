@@ -4,13 +4,34 @@
   box-sizing: border-box;
   list-style-type: none;
 }
-
+:root {
+  --brandColorMenu: #4a4a4a;
+  --brandColorMain: #3cdbc0;
+  --BrandColorMainText: #ffffff;
+}
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
 .logo {
+  padding: 10 0;
   display: flex;
   justify-content: center;
+}
+.logoSize {
+  width: 155px;
 }
 
 .menu {
   display: flex;
   justify-content: center;
+}
+.listItem {
+  font-family: "Rubik", "sans-serif";
+}
+.linkMenu {
+  padding: 10px 10px 13px 10px;
+  color: var(----brandColorMenu);
+  text-decoration: none;
 }
