@@ -14,6 +14,7 @@
   padding: 10px 0;
   position: fixed;
   z-index: 1000;
+  /* display: flex; */
   background-color: white;
 }
 .logo {
@@ -24,7 +25,9 @@
 .logoSize {
   width: 155px;
 }
-
+.menuContainer {
+  display: flex;
+}
 .menu {
   display: flex;
   justify-content: center;
@@ -48,6 +51,7 @@
   font-size: 30 px;
   /* position: absolute; */
   background-color: var(--brandColorMain);
+  padding: 300px 0;
 }
 .title {
   color: var(--BrandColorMainText);
@@ -58,14 +62,22 @@
   font-family: "Rubik", "sans-serif";
 }
 @media all and (min-width: 768px) {
+  .header {
+    display: flex;
+  }
   .logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 20px 0 20px 30px;
   }
   .menu {
     justify-content: flex-end;
     align-items: center;
+  }
+  .listItem {
+    padding: 10px 10px;
+    justify-content: flex-end;
   }
   .main {
     font-size: 40px;
