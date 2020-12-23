@@ -11,8 +11,10 @@
 }
 .header {
   width: 100%;
+  padding: 10px 0;
   position: fixed;
   z-index: 1000;
+  background-color: white;
 }
 .logo {
   padding: 10 0;
@@ -33,5 +35,25 @@
 .linkMenu {
   padding: 10px 10px 13px 10px;
   color: var(----brandColorMenu);
+  font-size: 16px;
   text-decoration: none;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30 px;
+  /* position: absolute; */
+  background-color: var(--brandColorMain);
+}
+.title {
+  color: var(--BrandColorMainText);
+}
+.titleItem {
+  text-align: center;
+  display: block;
+  font-family: "Rubik", "sans-serif";
 }
