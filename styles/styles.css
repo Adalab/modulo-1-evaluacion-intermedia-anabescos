@@ -47,18 +47,19 @@
 
 .main {
   height: 100vh;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30 px;
+
   /* position: absolute; */
   background-color: var(--brandColorMain);
-  padding: 300px 0;
+  /* padding: 300px 0; */
 }
 .titleMain {
   color: var(--BrandColorMainText);
   text-transform: capitalize;
+  font-size: 30px;
 }
 .titleItem {
   text-align: center;
@@ -67,7 +68,7 @@
 }
 @media all and (min-width: 768px) {
   .header {
-    display: flex;
+    /* display: flex; */
   }
   .logo {
     display: flex;
