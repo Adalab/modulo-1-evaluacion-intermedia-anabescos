@@ -37,10 +37,11 @@
 }
 .linkMenu {
   padding: 10px 10px 13px 10px;
-  color: var(----brandColorMenu);
+  color: var(--brandColorMenu);
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
+  /* background-color: grey; */
 }
 
 .main {
@@ -54,8 +55,9 @@
   background-color: var(--brandColorMain);
   padding: 300px 0;
 }
-.title {
+.titleMain {
   color: var(--BrandColorMainText);
+  text-transform: capitalize;
 }
 .titleItem {
   text-align: center;
