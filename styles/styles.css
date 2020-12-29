@@ -40,6 +40,7 @@
   color: var(----brandColorMenu);
   font-size: 16px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .main {
