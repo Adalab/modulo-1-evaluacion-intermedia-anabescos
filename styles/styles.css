@@ -47,14 +47,10 @@
 
 .main {
   height: 100vh;
-  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* position: absolute; */
   background-color: var(--brandColorMain);
-  /* padding: 300px 0; */
 }
 .titleMain {
   color: var(--BrandColorMainText);
@@ -84,7 +80,7 @@
     padding: 10px 10px;
     justify-content: flex-end;
   }
-  .main {
+  .titleMain {
     font-size: 40px;
   }
 }
